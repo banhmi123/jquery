@@ -4,6 +4,11 @@ Lấy ds nguoi dungtu back end
 var mangNguoiDung = [];
 $(document).ready(function () {
 
+    function ThemNguoiDung()
+    {
+        console.log("themNguoiDung");
+        
+    }
     var nguoiDungService = new NguoiDungService();
     var ajaxNguoiDung = nguoiDungService.LayDanhSachNguoiDung();
 

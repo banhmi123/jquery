@@ -6,7 +6,7 @@ $(document).ready(function () {
 
     function ThemNguoiDung()
     {
-        console.log("themNguoiDung");
+        console.log("themNguoiDung1");
         
     }
     var nguoiDungService = new NguoiDungService();
